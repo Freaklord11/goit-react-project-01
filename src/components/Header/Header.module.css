@@ -5,7 +5,11 @@
     height: 91px;
     gap:8px;
 }
-
+.headerIco {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+  }
 .headerText{
     font-weight: 700;
     font-size: 20px;
