@@ -1,0 +1,25 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-small);
+  }
+  
+  .formGroup {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input {
+    padding: var(--spacing-small);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+  }
+  
+  button {
+    padding: var(--spacing-medium);
+    background-color: var(--button-background);
+    color: var(--button-text);
+    border: none;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+  }

@@ -1,0 +1,17 @@
+.navbar {
+    padding: var(--spacing-medium);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 91px;
+  }
+
+  .textLogo{
+    color: var(--text-color);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25.94px;
+  }
+  .navbarLogo{
+    fill: white;
+  }
