@@ -1,0 +1,47 @@
+.heroBG{
+    border-radius: 20px;
+    position: absolute;
+}
+
+.balanceBlock{
+    background-color: white;
+    border-radius: 20px;
+    position: relative; 
+    margin-top: 286px;
+    padding-left: 10px;
+}
+
+@media (max-width: 375px) {
+    .heroBG{
+        width: 335px;
+        height: 381px;
+        margin: 50px 20px;
+        object-fit: cover;
+        object-position: center;
+
+    }
+
+    .balanceBlock{
+        width: 248px;
+        height: 81px;
+        padding: 0 10px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .heroBG{
+        width: 704x;
+        height: 482px;
+        margin: 50px 20px;
+        object-fit: cover;
+        object-position: center;
+
+    }
+
+    .balanceBlock{
+        width: 303px;
+        height: 121px;
+        padding: 0 10px;
+    }
+}

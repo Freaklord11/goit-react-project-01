@@ -1,16 +1,17 @@
 import React from 'react';
 import Header from '../../components/Header/Header';
+import Details from 'components/Details/Details';
 import styles from './WelcomePage.module.css';
+import AuthNav from 'components/AuthNav/AuthNav';
+import { BGWrapper } from 'components/BGWrapper/BGWrapper';
 
-function WelcomePage() {
+const WelcomePage = () => {
   return (
     <div className={styles.welcomePage}>
-      <h1>
-        <Header/>
-      </h1>
-      <div>
-      </div>
-      {/* Add other elements here */}
+      <Header />
+      <Details/>
+      <AuthNav/>
+      <BGWrapper/>
     </div>
   );
 }

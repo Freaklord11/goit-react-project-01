@@ -11,30 +11,19 @@ import MainTransactionsPage from '../pages/MainTransactionPage/MainTransactionPa
 import SharedLayout from './SharedLayout/SharedLayout';
 
 const App = () => {
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
-
-  const handleLogin = () => {
-    setIsLoggedIn(true);
-  };
-
-  const handleLogout = () => {
-    setIsLoggedIn(false);
-  };
 
   return (
-    <Router>
-      <GlobalStyles />
-      {isLoggedIn ? <Navbar onLogout={handleLogout} /> : <Header />}
-      <SharedLayout>
-        <Routes>
-          <Route path="/" element={<WelcomePage />} />
-          <Route path="/register" element={<RegisterPage />} />
-          <Route path="/login" element={<LoginPage onLogin={handleLogin} />} />
-          <Route path="/transactions" element={<MainTransactionsPage />} />
-        </Routes>
-      </SharedLayout>
-      <Footer />
-    </Router>
+    <Router basename="/goit-react-project-01">  {/* Set basename */}
+    <GlobalStyles />
+    <SharedLayout>
+      <Routes>
+        <Route path="/" element={<WelcomePage />} />
+        <Route path="/register" element={<RegisterPage />} />
+        <Route path="/login" element={<LoginPage />} />
+        <Route path="/transactions" element={<MainTransactionsPage />} />
+      </Routes>
+    </SharedLayout>
+  </Router>
   );
 };
 

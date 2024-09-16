@@ -2,7 +2,7 @@
   "name": "goit-react-project-01",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Freaklord11.github.io/goit-react-project-01/",
+  "homepage": "https://Freaklord_11.github.io/goit-react-project-01/",
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.7",
     "@testing-library/jest-dom": "^5.16.3",

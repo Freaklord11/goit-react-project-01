@@ -1,0 +1,54 @@
+
+/* Media Queries */
+
+
+/* For small devices (375px and up) */
+@media (max-width: 375px) {
+    .detailBlock {
+        width: hug(335px);
+        height: hug(175px);
+        gap: 10px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    .expenseText {
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 16.21px;
+        color: #FAFAFA;
+        opacity: 40%;
+    }
+
+    .headerTitle {
+        font-weight: 400;
+        font-size: 30px;
+    }
+
+    .finText {
+        color: var(--primary-color);
+        text-decoration: underline;
+    }
+
+    .detailsDef {
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 18.53px;
+        color: #FAFAFA;
+        opacity: 40%;
+    }
+}
+
+/* For tablets and small desktops (768px and up) */
+@media (max-width: 768px) {
+    .detailBlock{
+        width: Hug (575px)px;
+        height: Hug (320px)px;
+        gap: 10px;
+
+    }
+}
+
+/* For large desktops (1440px and up) */
+@media (min-width: 1440px) {
+}
